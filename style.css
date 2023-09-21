@@ -1,0 +1,87 @@
+/* .Landing{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+nav {
+  position: fixed;
+  background-color: #c4dfdf;
+  width: 100%;
+  height: 64px;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+.Right {
+  float: right;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  /* size: 10px; */
+}
+.Home {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d2e9e9;
+  font-family: 'Poppins', sans-serif;
+}
+.About {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e3f4f4;
+  font-family: 'Poppins', sans-serif;
+}
+.Contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f6f4;
+  font-family: 'Poppins', sans-serif;
+}
+.LeftContact {
+  margin: 100px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.RightContact {
+  margin: 100px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+li {
+  list-style-type: none;
+}
+.AboutText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.AboutPara {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* background-color: black; */
+  margin: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 350px;
+  font-family: 'Poppins', sans-serif;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
